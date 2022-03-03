@@ -39,6 +39,11 @@ export default {
     '@nuxtjs/eslint-module'
   ],
 
+  // https://dev.marlospomin.com/blog/eslint-auto-fix-on-nuxtjs/
+  eslint: {
+    fix: true
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
@@ -46,6 +51,14 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios'
   ],
+
+  // https://bootstrap-vue.org/docs/#icons
+  bootstrapVue: {
+    icons: true,
+    // https://bootstrap-vue.org/docs#using-custom-bootstrap-scss
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
